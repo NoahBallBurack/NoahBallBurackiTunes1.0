@@ -1,0 +1,30 @@
+#background{
+    position: fixed;
+    width: 529.5px;
+    height: 352.5px;
+    top: 50%;
+    left: 50%;
+    margin-left: -264.75px;
+    margin-top: -176.25px;
+    z-index: -1;
+}
+
+#numberOfSongs{
+    margin-top: 3px;
+    height: 30px;
+}
+
+.header{
+    font-weight: bold;
+}
+
+#detailTitle{
+    color: #2196F3;
+    text-align: center;
+    font-family: "Apple Braille";
+    font-size: 50px;
+}
+
+#backToList{
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Noah Ball-Burack's iTunes 1.0</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Stylesheet.css">
+
+</head>
+
+<body>
+
+<table class=" w3-table">
+    <tr>
+        <td>
+            <input id="artistName" type="text" placeholder="Enter artist name here" class="w3-blue">
+        </td>
+        <td>
+            <select id="numberOfSongs" class="w3-btn w3-round-xxlarge w3-blue">
+                <option value="10"> Top 10 Songs</option>
+                <option value="25"> Top 25 Songs</option>
+                <option value="50"> Top 50 Songs</option>
+            </select>
+        </td>
+        <td>
+            <button id="search" onclick="search()" class="w3-btn w3-round-xxlarge w3-blue">Search</button>
+        </td>
+    </tr>
+</table>
+
+<table id="mainTable" class="w3-table-all w3-striped w3-border"></table>
+
+<img id="background" src="https://cdn.vox-cdn.com/thumbor/mszg4wfLw1Hudt-qQtwvMsoi2_0=/0x0:1020x638/1200x800/filters:focal(429x238:591x400)/cdn.vox-cdn.com/uploads/chorus_image/image/59535253/C_j1HJ5XoAAR7c5.0.jpg">
+
+</body>
+
+</html>
